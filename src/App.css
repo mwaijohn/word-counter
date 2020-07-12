@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+/* style navigation bar */
+nav{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 8vh;
+  align-items: center;
+  box-shadow: 0px 1px 5px #282c34;
+}
+.logo{
+  color: #282c34;
+
+  text-transform: uppercase;
+}
+.logo h2{
+  background: linear-gradient(to left,#8fa0db,#110268);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  display: inline;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-items a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* end navigation bar styling */
+
+.form-container{
+  width: 80vw;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.word-count{
+  display: block;
+  padding: 15px;
+  font-size: 26px;
+  width: 100%;
+  text-align: right;
+}
+.word-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.keyword-stats{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.keyword-stats p{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.density{
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.keyword-stats input[type = text]{
+  font-size: 1rem;
+  padding: 5px 5px;
+}
+.keyword-stats input[type = text]:focus{
+ outline: transparent;
+}
+
+textarea{
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+textarea:focus{
+  outline: 0px;
+}
+#footer{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
