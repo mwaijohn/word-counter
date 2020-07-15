@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/word-counter/static/css/main.c9b854c3.chunk.css",
+    "main.js": "/word-counter/static/js/main.5f82d5c4.chunk.js",
+    "main.js.map": "/word-counter/static/js/main.5f82d5c4.chunk.js.map",
+    "runtime-main.js": "/word-counter/static/js/runtime-main.613b9faa.js",
+    "runtime-main.js.map": "/word-counter/static/js/runtime-main.613b9faa.js.map",
+    "static/js/2.2c4a05dc.chunk.js": "/word-counter/static/js/2.2c4a05dc.chunk.js",
+    "static/js/2.2c4a05dc.chunk.js.map": "/word-counter/static/js/2.2c4a05dc.chunk.js.map",
+    "index.html": "/word-counter/index.html",
+    "precache-manifest.a4619dfe5acdce89d128131240005277.js": "/word-counter/precache-manifest.a4619dfe5acdce89d128131240005277.js",
+    "service-worker.js": "/word-counter/service-worker.js",
+    "static/css/main.c9b854c3.chunk.css.map": "/word-counter/static/css/main.c9b854c3.chunk.css.map",
+    "static/js/2.2c4a05dc.chunk.js.LICENSE.txt": "/word-counter/static/js/2.2c4a05dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.613b9faa.js",
+    "static/js/2.2c4a05dc.chunk.js",
+    "static/css/main.c9b854c3.chunk.css",
+    "static/js/main.5f82d5c4.chunk.js"
+  ]
+}
